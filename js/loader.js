@@ -36,6 +36,10 @@
     opened = true;
     loader.classList.add("is-open");
     document.body.classList.remove("is-loading");
+    // Unlocking scroll can let the browser snap back to a remembered position
+    // (e.g. the quiz, if the guest reloaded mid-page). Pin to the top so the
+    // reveal always lands on the hero.
+    window.scrollTo(0, 0);
     // let main.js kick off the hero animations
     requestAnimationFrame(() => document.body.classList.add("is-loaded"));
     // tidy up after the curtain transition

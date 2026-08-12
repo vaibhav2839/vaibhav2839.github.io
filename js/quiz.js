@@ -18,52 +18,52 @@
      ========================================================== */
   const QUESTIONS = [
     {
-      q: "Who said “I love you” first?",
-      options: ["Vaibhav", "Nishita", "They said it in the same breath"],
+      q: "How did the two families first connect for the match?",
+      options: ["An online matrimony app", "Through a common family friend", "At someone else's wedding", "The dads are old college buddies"],
       correct: 0,
-      quip: "He blurted it out mid-sentence and turned bright red."
+      quip: "A profile, a hopeful little algorithm, and the rest is history."
     },
     {
-      q: "Who takes longer to get ready before a night out?",
+      q: "Vaibhav's idea of a perfect date night is…",
+      options: ["Cricket highlights and a plate of biryani", "Reviewing Nishita's 40-tab wedding spreadsheet", "Whatever Nishita has already decided", "A long drive with no destination"],
+      correct: 0,
+      quip: "Nishita agreed to the biryani. The cricket is still under negotiation."
+    },
+    {
+      q: "Where did Vaibhav and Nishita first meet in person?",
+      options: ["A café in Hyderabad", "Over chai at Nishita's family home", "A college lecture hall", "On a flight to Lucknow"],
+      correct: 0,
+      quip: "Two coffees, zero chill — and neither of them finished their drink."
+    },
+    {
+      q: "What did they bond over on that first long phone call?",
+      options: ["Old Bollywood and cricket", "A shared weakness for biryani", "Both dreading the “so, when's the shaadi?” questions", "All of the above"],
+      correct: 3,
+      quip: "Three hours later, someone's phone finally died."
+    },
+    {
+      q: "How many tabs are in Nishita's legendary wedding spreadsheet?",
+      options: ["A tasteful 5 or 6", "Somewhere past 40", "One — she keeps it all in her head", "Vaibhav isn't allowed to know"],
+      correct: 1,
+      quip: "Colour-coded, cross-referenced, and frankly terrifying."
+    },
+    {
+      q: "Who takes longer to get ready before a family function?",
       options: ["Vaibhav", "Nishita", "Honestly, it's a tie"],
       correct: 1,
-      quip: "In her defence, the results are always worth it."
+      quip: "In her defence, the results are always worth the wait."
     },
     {
-      q: "Who's more likely to forget an anniversary?",
-      options: ["Vaibhav", "Nishita", "Miso, probably"],
+      q: "Who is more likely to fall asleep first during a movie?",
+      options: ["Vaibhav", "Nishita", "Whoever picked the movie"],
       correct: 0,
-      quip: "Which is why there are now three calendar reminders."
-    },
-    {
-      q: "Who got down on one knee?",
-      options: ["Vaibhav", "Nishita", "They proposed to each other at once"],
-      correct: 0,
-      quip: "On a quiet evening by the Gomti. She said yes before he finished."
-    },
-    {
-      q: "Where did they first meet?",
-      options: ["A college lecture hall", "A rainy café in Bombay", "A mutual friend's wedding", "On a flight to Lucknow"],
-      correct: 1,
-      quip: "One umbrella, one missed last train, one great story."
-    },
-    {
-      q: "What's their cat's name?",
-      options: ["Mochi", "Miso", "Ladoo", "Chai"],
-      correct: 1,
-      quip: "Tiny, fluffy, and completely in charge of the household."
+      quip: "The opening credits barely stand a chance."
     },
     {
       q: "Which city is the wedding in?",
       options: ["Jaipur", "Lucknow", "Jodhpur", "Mumbai"],
       correct: 1,
       quip: "The city of nawabs, kebabs, and very good light."
-    },
-    {
-      q: "Where was their first trip together?",
-      options: ["Goa", "Himachal", "Kerala", "Ladakh"],
-      correct: 1,
-      quip: "Bad maps, big mountains, zero regrets."
     },
     {
       q: "Who's the better cook? Fair warning: this one's disputed.",
@@ -73,9 +73,9 @@
     },
     {
       q: "Who really controls the TV remote?",
-      options: ["Vaibhav", "Nishita", "Miso"],
-      correct: 2,
-      quip: "Democracy died the day Miso learned to sit on the remote."
+      options: ["Vaibhav", "Nishita", "Whoever grabs it first wins"],
+      correct: 1,
+      quip: "Democracy is lovely, but Nishita has the final say."
     }
   ];
 
@@ -139,7 +139,7 @@
         <div class="quiz__panel">
           <div class="quiz__monogram">V<span class="script">&amp;</span>N</div>
           <h3 class="quiz__panel-title">How well do you know <span class="script">us?</span></h3>
-          <p class="quiz__panel-copy">10 questions about the two of us. No cheating 👀 (unless you ask Miso).</p>
+          <p class="quiz__panel-copy">10 questions about the two of us. No cheating 👀 (well, maybe a little).</p>
           <div class="quiz__meta"><span>10 Questions</span><span>~2 Minutes</span></div>
           <button type="button" class="btn btn--fill" id="quizStartBtn"><span>Start the quiz</span></button>
         </div>

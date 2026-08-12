@@ -2,7 +2,12 @@
 <html lang="en" class="no-js">
 <head>
   <!-- Swap no-js → js as early as possible so reveal styles only apply when JS runs -->
-  <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace("no-js", "js");
+    // Never restore the previous scroll position on reload — the intro should
+    // always begin at the very top, behind the curtains (not mid-page).
+    if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="theme-color" content="#fbf7f0" />
