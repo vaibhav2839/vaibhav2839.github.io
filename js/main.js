@@ -459,8 +459,6 @@
     const form = $("#rsvpForm");
     if (!form) return;
     const success = $("#rsvpSuccess");
-    const guestField = $("#guestCountField");
-    const mealField = $("#mealField");
 
     const setError = (field, msg) => {
       field.classList.toggle("has-error", !!msg);
@@ -469,14 +467,8 @@
     };
     const fieldOf = (input) => input.closest(".field");
 
-    // Toggle conditional fields based on attendance
-    function updateConditional() {
-      const yes = form.querySelector('input[name="attending"]:checked')?.value === "yes";
-      [guestField, mealField].forEach((f) => f && f.classList.toggle("is-visible", yes));
-    }
     $$('input[name="attending"]', form).forEach((r) =>
       r.addEventListener("change", () => {
-        updateConditional();
         setError(fieldOf(r), "");
       })
     );

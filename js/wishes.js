@@ -474,13 +474,15 @@
   function seedWishes() {
     var base = 1765000000000; // fixed timestamps → deterministic seeded look
     var seeds = [
-      { text: "May your love be as endless as the lights over Lucknow tonight.", name: "Priya" },
-      { text: "Wishing you a lifetime of shared chai and stolen desserts. So happy for you both!", name: "Rohan" },
-      { text: "Beta, may your home always be full of laughter, good food, and open doors.", name: "Aunty Meera" },
-      { text: "To Vaibhav & Nishita — here's to growing old and still being each other's favourite.", name: "The Sharmas" },
-      { text: "Two hearts, one beautiful adventure. Can't wait to dance at your sangeet!", name: "Kabir" },
-      { text: "May every Lucknow evening remind you of how bright your love began.", name: "Tara" }
-    ];
+  { text: "Nishita, from growing up together to watching you start this new chapter — I couldn't be happier for you. Love you both!", name: "Harshita" },
+  { text: "Wishing you both a lifetime of laughter, crazy plans, great food, and even better memories. So happy for you!", name: "Apoorv" },
+  { text: "Beta, may you always keep each other happy and your home be filled with love, laughter, and warmth. God bless you both.", name: "Shephali" },
+  { text: "Vaibhav and Nishita, may you both always stand by each other and keep finding happiness in the little things. Wishing you a beautiful life together.", name: "Rajesh" },
+  { text: "Nishita, so happy to see you become a part of our family. Wishing you both a lifetime of laughter, love, and countless beautiful memories together!", name: "Anjali" },
+  { text: "Nishita beta, seeing you begin this beautiful journey fills my heart with happiness. May you both always be blessed with love and togetherness.", name: "Tripti" },
+  { text: "Vaibhav and Nishita, may you always have each other's back and build a life filled with love, respect, and happiness.", name: "Shailesh" },
+  { text: "Marriage is going to be one hell of an adventure. Here's to doing it together, making ridiculous memories, and growing old side by side.", name: "Vaibhav" }
+];
     return seeds.map(function (s, i) {
       return { text: s.text, name: s.name, ts: base + i * 1000, seed: s.text + "|" + s.name };
     });

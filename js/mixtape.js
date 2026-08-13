@@ -339,12 +339,12 @@
   function defaultTracks() {
     var now = Date.now();
     var seeds = [
-      { song: "Perfect", artist: "Ed Sheeran", likes: 14 },
+      { song: "Khat", artist: "Navjot Ahuja", likes: 14 },
       { song: "Tum Se Hi", artist: "Mohit Chauhan", likes: 11 },
-      { song: "Can't Help Falling in Love", artist: "Elvis Presley", likes: 9 },
-      { song: "Raabta", artist: "Arijit Singh", likes: 8 },
-      { song: "At Last", artist: "Etta James", likes: 6 },
-      { song: "Kabira", artist: "Arijit Singh, Tochi Raina", likes: 5 }
+      { song: "tum Saath Rhna", artist: "King", likes: 9 },
+      { song: "Aashiq Tera", artist: "Sohail Sen", likes: 8 },
+      { song: "Bairan", artist: "Sumit & Anuj", likes: 6 },
+      { song: "Lo Safar", artist: "Jubin Nautiyal", likes: 5 }
     ];
     return seeds.map(function (seed, i) {
       return {

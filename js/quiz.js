@@ -24,11 +24,16 @@
       quip: "A profile, a hopeful little algorithm, and the rest is history."
     },
     {
-      q: "Vaibhav's idea of a perfect date night is…",
-      options: ["Cricket highlights and a plate of biryani", "Reviewing Nishita's 40-tab wedding spreadsheet", "Whatever Nishita has already decided", "A long drive with no destination"],
-      correct: 0,
-      quip: "Nishita agreed to the biryani. The cricket is still under negotiation."
-    },
+  q: "Vaibhav's idea of a perfect date night is…",
+  options: [
+    "Good food and a great conversation",
+    "Planning the next trip together",
+    "Whatever Nishita has already decided",
+    "A long drive with no destination"
+  ],
+  correct: 0,
+  quip: "Good food and good company."
+},
     {
       q: "Where did Vaibhav and Nishita first meet in person?",
       options: ["A café in Hyderabad", "Over chai at Nishita's family home", "A college lecture hall", "On a flight to Lucknow"],
@@ -37,16 +42,21 @@
     },
     {
       q: "What did they bond over on that first long phone call?",
-      options: ["Old Bollywood and cricket", "A shared weakness for biryani", "Both dreading the “so, when's the shaadi?” questions", "All of the above"],
+      options: ["Movies and TV shows", "A shared weakness for biryani", "Adventure and Trips", "All of the above"],
       correct: 3,
       quip: "Three hours later, someone's phone finally died."
     },
     {
-      q: "How many tabs are in Nishita's legendary wedding spreadsheet?",
-      options: ["A tasteful 5 or 6", "Somewhere past 40", "One — she keeps it all in her head", "Vaibhav isn't allowed to know"],
-      correct: 1,
-      quip: "Colour-coded, cross-referenced, and frankly terrifying."
-    },
+  q: "What is Nishita most likely to do on a great day out?",
+  options: [
+    "Take a hundred photos for the perfect Instagram post",
+    "Forget her phone exists",
+    "Take one photo and call it a day",
+    "Leave the camera at home"
+  ],
+  correct: 0,
+  quip: "The day happened. Now it needs to be posted."
+},
     {
       q: "Who takes longer to get ready before a family function?",
       options: ["Vaibhav", "Nishita", "Honestly, it's a tie"],
