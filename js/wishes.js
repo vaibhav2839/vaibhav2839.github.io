@@ -481,7 +481,7 @@
   { text: "Nishita, so happy to see you become a part of our family. Wishing you both a lifetime of laughter, love, and countless beautiful memories together!", name: "Anjali" },
   { text: "Nishita beta, seeing you begin this beautiful journey fills my heart with happiness. May you both always be blessed with love and togetherness.", name: "Tripti" },
   { text: "Vaibhav and Nishita, may you always have each other's back and build a life filled with love, respect, and happiness.", name: "Shailesh" },
-  { text: "Marriage is going to be one hell of an adventure. Here's to doing it together, making ridiculous memories, and growing old side by side.", name: "Vaibhav" }
+  { text: "Wishing you both a lifetime of happiness, laughter, and adventures. And Vaibhav, welcome to the family — you're officially one of us now!", name: "Vaibhav Shrivastava" }
 ];
     return seeds.map(function (s, i) {
       return { text: s.text, name: s.name, ts: base + i * 1000, seed: s.text + "|" + s.name };
