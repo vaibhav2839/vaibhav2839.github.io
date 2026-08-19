@@ -244,8 +244,8 @@
   function openVault(via) {
     // The "off-camera" album — kept exclusive from the public gallery.
     // These files aren't shown in the gallery grid, so the vault stays a surprise.
-    const imgs = ["vault-2", "vault-4", "vault-7", "gallery-1", "gallery-8"].map((name, i) =>
-      `<img src="img/${name}.jpg" alt="Behind-the-scenes ${i + 1}" loading="lazy" />`
+    const imgs = ["vault123.jpeg", "vault124.jpeg", "vault125.jpeg", "vault-2.jpg", "vault-4.jpg", "vault-7.jpg", "gallery-1.jpg", ].map((name, i) =>
+      `<img src="img/${name}" alt="Behind-the-scenes ${i + 1}" loading="lazy" />`
     ).join("");
     findSecret("vault");
     openModal({
